@@ -1,0 +1,220 @@
+/*ELEMENT*/
+body {
+  margin: 0;
+}
+
+header {
+  background-image: url(images/bg-hero-desktop.svg);
+  background-size: 100%;
+  background-color: hsl(193, 100%, 96%);
+  padding-bottom: 110px;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 26px;
+  font-family: 'Poppins', sans-serif;
+}
+
+button {
+  background-color: hsl(300, 69%, 71%);
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  padding: 15px 60px;
+  border: none;
+  border-radius: 40px;
+  box-shadow: 2px 4px 6px black;
+}
+
+button:hover {
+  background-color:white;
+  color:  hsl(300, 69%, 71%);
+  box-shadow: 5px 7px 9px black;
+  transition: 0.4s;
+
+}
+
+/*CONTAINER*/
+.logo-bar {
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-top: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+
+.main-container {
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.main-left-container {
+  padding: 150px 100px;
+}
+
+.main-right-container {
+  padding-top: 50px;
+  padding-right: 50px;
+
+}
+
+.mid-container {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  grid-gap: 50px;
+}
+
+.grow-together-container {
+  grid-gap: 50px;
+  margin: auto;
+  width: 1500px;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 5px 7px 9px 4px grey;
+  border-radius: 20px;
+}
+
+.flowing-conversations-container {
+  grid-gap: 50px;
+  margin: auto;
+  width: 1500px;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 5px 7px 9px 4px grey;
+  border-radius: 20px;
+}
+
+.your-users-container {
+  grid-gap: 50px;
+  margin: auto;
+  width: 1500px;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 5px 7px 9px 4px grey;
+  border-radius: 20px;
+}
+.grow-together-container:hover{
+  box-shadow: 7px 9px 10px 6px black;
+  transition: 0.4s;
+}
+.flowing-conversations-container:hover{
+  box-shadow: 7px 9px 10px 6px black;
+  transition: 0.4s;
+}
+ .your-users-container:hover{
+  box-shadow: 7px 9px 10px 6px black;
+  transition: 0.4s;
+
+}
+
+.mid-left-container {
+
+  padding-top: 100px;
+  padding-left: 60px;
+  width: 600px;
+}
+
+.mid-right-container {
+  padding-left: 100px;
+
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.second-mid-container {
+display: flex;
+justify-content: center;
+
+
+}
+.build-community{
+  background-color: white;
+  margin-top:150px;
+  text-align: center;
+  padding: 50px 70px;
+  border-radius: 10px;
+  border: 1px solid grey;
+  margin-bottom: -100px;
+}
+
+.bottom-container {
+  background-color: hsl(192, 100%, 9%);
+  padding-top: 150px;
+  padding-bottom: 150px;
+
+}
+.main-bottom-container{
+  width:1600px;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  grid-gap: 20px;
+}
+.logo-bottom{
+
+  width:1450px;
+  margin: auto;
+  padding-bottom: 20px;
+}
+.email{
+  width:400px;
+}
+
+/*image*/
+.mockups-img {
+  width: 900px;
+}
+
+.grow-img {
+  width: 500px;
+}
+
+.flowing-img {
+  width: 500px;
+}
+
+.user-img {
+  width: 500px;
+}
+
+.huddle-logo-bottom{
+filter: brightness(100);
+
+}
+
+.info-icons{
+  float: left;
+  margin-right: 50px;
+
+
+}
+/*paragraph*/
+.p-1 {
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.p-2 {
+  font-size: 18px;
+  color: hsl(208, 11%, 55%);
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.p-3 {
+  color: hsl(208, 11%, 55%);
+}
